@@ -1,0 +1,189 @@
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Viga&display=swap');
+
+  body{
+    background-color:rgb(164, 28, 58);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid salmon;
+    border-radius: 10px;
+}
+h1
+{
+font-family:'Anton',sans-serif;
+color:whitesmoke;
+letter-spacing: 5px;
+font-size: 3.5rem;
+}
+.text
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: wheat;
+    margin-top: -50px;
+    font-style: italic;    
+    margin-bottom: 20%;
+}
+
+img
+{
+    -webkit-box-shadow: 9px 53px 80px -39px rgba(0,0,0,0.86);
+    -moz-box-shadow: 9px 53px 80px -39px rgba(0,0,0,0.86);
+    box-shadow: 9px 53px 80px -39px rgba(0,0,0,0.86);
+    border-radius: 15px;
+    margin-left: -50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width:40%;
+    max-height: 40%;
+}
+.caixa
+{
+    background-color:rgb(179, 18, 47);
+    max-width: 45%;
+    max-height: 30%;
+    margin-left: 50%;
+    border-radius: 10px;
+    position: relative;
+    margin-top:-40%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    border: solid 2px;
+    -webkit-box-shadow: 32px 21px 46px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 32px 21px 46px -15px rgba(0,0,0,0.75);
+    box-shadow: 32px 21px 46px -15px rgba(0,0,0,0.75);
+    font-size: 1rem;
+}
+
+button
+{
+    background-color: rgb(13, 226, 155);
+    font-family: 'Viga', sans-serif;
+    font-size: larger;
+    border-radius: 15px;
+    border-color: black;
+    border: solid 2px;
+    -webkit-box-shadow: 9px 53px 80px -39px rgba(0,0,0,0.86);
+    -moz-box-shadow: 9px 53px 80px -39px rgba(0,0,0,0.86);
+    box-shadow: 9px 53px 80px -39px rgba(0,0,0,0.86);
+}
+.formatar_caixa
+{
+    display: inline-table;
+}
+#maior
+{
+    margin-top: -60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1024px) 
+{
+    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Viga&display=swap');
+
+    body{
+      background-color:rgb(164, 28, 58);
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+  }
+  .container
+  {
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      border: 1px solid salmon;
+      border-radius: 10px;
+  }
+  h1
+  {
+  font-family:'Anton',sans-serif;
+  color:whitesmoke;
+  letter-spacing: 5px;
+  font-size: 3.5rem;
+  }
+  .text
+  {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: large;
+      color: wheat;
+      margin-top: -50px;
+      font-style: italic;    
+      margin-bottom: 20%;
+  }
+  
+  img
+  {
+      -webkit-box-shadow: 9px 53px 80px -39px rgba(0,0,0,0.86);
+      -moz-box-shadow: 9px 53px 80px -39px rgba(0,0,0,0.86);
+      box-shadow: 9px 53px 80px -39px rgba(0,0,0,0.86);
+      border-radius: 15px;
+      margin-left: -50%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      max-width:40%;
+      max-height: 40%;
+  }
+  .caixa
+  {
+    background-color:rgb(179, 18, 47);
+    height: 3em;
+    min-width: 50%;
+    margin-left: 50%;
+    border-radius: 10px;
+    position: relative;
+    margin-top:-40%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    border: solid 2px;
+    -webkit-box-shadow: 32px 21px 46px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 32px 21px 46px -15px rgba(0,0,0,0.75);
+    box-shadow: 32px 21px 46px -15px rgba(0,0,0,0.75);
+    font-size: 2rem;
+  }
+  
+  button
+  {
+      background-color: rgb(13, 226, 155);
+      font-family: 'Viga', sans-serif;
+      font-size: larger;
+      border-radius: 15px;
+      border-color: black;
+      border: solid 2px;
+      -webkit-box-shadow: 9px 53px 80px -39px rgba(0,0,0,0.86);
+      -moz-box-shadow: 9px 53px 80px -39px rgba(0,0,0,0.86);
+      box-shadow: 9px 53px 80px -39px rgba(0,0,0,0.86);
+  }
+  .formatar_caixa
+  {
+      display: inline-table;
+  }
+  #maior
+  {
+      margin-top: -60%;
+  }
+}

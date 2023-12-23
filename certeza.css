@@ -1,0 +1,65 @@
+.container
+{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+img
+{
+    width: 20rem;
+    height: 15rem;
+    margin-top: 140%;
+    margin-left: -30%;
+}
+.text
+{
+    font-size: 2rem;
+    font-family: 'Anton',sans-serif;
+    color: red;
+    margin-top: 10%;
+}
+button
+{
+    background-color: aliceblue;
+    border-radius: 10px;
+    color: red;
+}
+
+
+
+
+
+
+
+@media screen and (min-width:1024px)
+{
+    .container
+{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+img
+{
+    margin-top: 10%;
+    width: 50em;
+    height: 30em;
+    margin-left:-15%;
+}
+.text
+{
+    font-size: 12rem;
+    font-family: 'Anton',sans-serif;
+    color: rgb(255, 0, 0);
+    margin-bottom: 5em;
+}
+button
+{
+    background-color: aliceblue;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    width:20%;
+    height:10em;
+    font-size: 5rem;
+}
+}

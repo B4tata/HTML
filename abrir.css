@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Viga&display=swap');
+
+body{
+  background-color:rgb(223, 94, 119);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.container
+{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid salmon;
+  border-radius: 10px;
+}
+h1
+{
+font-family:'Anton',sans-serif;
+color:whitesmoke;
+letter-spacing: 5px;
+font-size: 3.5rem;
+}
+.text
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  color: wheat;
+  margin-top: -50px;
+  font-style: italic;    
+  margin-bottom: 20%;
+}
+
+img
+{
+  width: 40%;
+  height: 50%;
+  -webkit-box-shadow: 9px 53px 80px -39px rgba(0,0,0,0.86);
+  -moz-box-shadow: 9px 53px 80px -39px rgba(0,0,0,0.86);
+  box-shadow: 9px 53px 80px -39px rgba(0,0,0,0.86);
+  border-radius: 15px;
+  margin-left: 1%;
+  margin-top: 100%;
+  margin-bottom: 10px;
+}
+.caixa
+{
+  background-color:rgb(179, 18, 47);
+  width: 40%;
+  height: 2rem;
+  margin-left: 50%;
+  border-radius: 10px;
+  position: relative;
+  margin-top:-40%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: whitesmoke;
+}
+
+button
+{
+  background-color: rgb(13, 226, 155);
+  font-family: 'Viga', sans-serif;
+  font-size: larger;
+  border-radius: 15px;
+  border-color: black;
+  border: solid 2px;
+  -webkit-box-shadow: 9px 53px 80px -39px rgba(0,0,0,0.86);
+  -moz-box-shadow: 9px 53px 80px -39px rgba(0,0,0,0.86);
+  box-shadow: 9px 53px 80px -39px rgba(0,0,0,0.86);
+}
+.formatar_caixa
+{
+  display: inline-table;
+}
+#maior
+{
+  margin-top: -60%;
+}
+.first
+{
+  font-family:'Anton',sans-serif; 
+  color:whitesmoke;
+  letter-spacing: 3px;
+  font-size: 2.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:920px)
+{
+
+    body{
+      background-color:rgb(223, 94, 119);
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+    .container
+    {
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      border: 1px solid salmon;
+      border-radius: 10px;
+    }
+
+    .text
+    {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: large;
+      color: wheat;
+      margin-top: -50px;
+      font-style: italic;    
+      margin-bottom: 20%;
+    }
+    
+    img
+    {
+      width: 40%;
+      height: 50%;
+      -webkit-box-shadow: 9px 53px 80px -39px rgba(0,0,0,0.86);
+      -moz-box-shadow: 9px 53px 80px -39px rgba(0,0,0,0.86);
+      box-shadow: 9px 53px 80px -39px rgba(0,0,0,0.86);
+      border-radius: 15px;
+      margin-top: 10%;
+      margin-left: 5%;
+    }
+    .caixa
+    {
+      background-color:rgb(179, 18, 47);
+      width: 40%;
+      height: 2rem;
+      margin-left: 50%;
+      border-radius: 10px;
+      position: relative;
+      margin-top:-40%;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: whitesmoke;
+    }
+    
+    button
+    {
+      width: 10em;
+      height: 15rem;
+      background-color: rgb(13, 226, 155);
+      font-family: 'Viga', sans-serif;
+      font-size: 10em;
+      border-radius: 15px;
+      border-color: black;
+      border: solid 2px;
+      -webkit-box-shadow: 9px 53px 80px -39px rgba(0,0,0,0.86);
+      -moz-box-shadow: 9px 53px 80px -39px rgba(0,0,0,0.86);
+      box-shadow: 9px 53px 80px -39px rgba(0,0,0,0.86);
+    }
+    .formatar_caixa
+    {
+      display: inline-table;
+    }
+    #maior
+    {
+      margin-top: -60%;
+    }
+    .first
+    {
+      font-family:'Anton',sans-serif; 
+      color:whitesmoke;
+      letter-spacing: 3px;
+      font-size: 12.5rem;
+    }
+    
+}

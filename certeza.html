@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="certeza.css">
+    <script>
+        function continuar()
+        {
+            window.location.href='index.html';
+        }
+        function reproduzirmusica()
+        {
+            var Musica=document.getElementById('tocarmusica');
+            Musica.play();
+        }
+    </script>
+</head>
+<body bgcolor="black" onload="reproduzirmusica()">
+    <audio id="tocarmusica" autoplay loop>
+        <source src="./audio/musica.mp3" type="audio/mp3">
+    </audio>
+    <div class="container">
+    <div class="text">Tem certeza de que não quer abrir a caixa e ver?
+    <button onclick="continuar()">Tenho certeza</button>
+    </div>
+    
+    <img src="./Imagens/vocetemctz.jpg">
+    
+</div>
+</body>
+</html>
